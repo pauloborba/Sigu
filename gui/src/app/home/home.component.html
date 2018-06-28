@@ -1,0 +1,9 @@
+
+ <div  style="text-align: center">
+    <h1>Bem vindo ao Sigu</h1>
+  <form (ngSubmit)="onSubmit()" [formGroup]="userForm">
+    <input type="text" class="form-control" formControlName="login"><br>
+    <input type="text" class="form-control" formControlName="senha">
+    <button  type="submit">Login</button>
+  </form>
+ </div>
